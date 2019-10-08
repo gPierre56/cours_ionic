@@ -1,0 +1,16 @@
+{
+  "lang" : "fr-FR",
+  "name" : "DevFest Nantes 2018",
+  "short_name" : "Dev",
+  "description": "Une super app pour le DevFest",
+  "orientation" : "Portrait",
+  "background_color": "#fff",
+  "theme_color" : "#fff",
+  "start_url": "http://localhost:8080/",
+  "display": "standalone",
+  "icons": [{
+    "src": "icone.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
+}
