@@ -1,0 +1,7 @@
+{
+  "appId": "fr.diginamic.helloCapacitor",
+  "appName": "helloCapacitor",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www"
+}

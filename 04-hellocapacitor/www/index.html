@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog DevFest Nantes</title>
+    <script type="module" src="https://unpkg.com/@ionic/core@4.9.1/dist/ionic/ionic.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/@ionic/core@4.9.1/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/css/ionic.bundle.css"/>
+
+</head>
+<body>
+
+<ion-app>
+    <ion-header>
+        <ion-title><h1 class="ion-text-center" style="font-weight: bold;">Blog DevFest Nantes</h1></ion-title>
+    </ion-header>
+
+    <ion-content class="ion-container" id="contenu">
+
+
+    </ion-content>
+    <ion-footer>
+        <ion-grid style="background: transparent;">
+            <ion-row justify-content-center align-items-center>
+                <ion-fab-button class="ion-text-center" color="primary" onclick = "camera()">
+                    <ion-icon name="md-camera"></ion-icon>
+                </ion-fab-button>
+            </ion-row>
+        </ion-grid>
+
+
+        </ion-fab-button>
+    </ion-footer>
+</ion-app>
+<script src="capacitor.js"></script>
+<script type="module" src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"></script>
+<script nomodule src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>
